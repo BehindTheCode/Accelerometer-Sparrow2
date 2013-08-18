@@ -45,8 +45,8 @@
     _Image.y = -_Image.height / 2;
     [self addChild:_Image];
     
-    _velocityX = 800.0f;
-    _velocityY = 800.0f;
+    _velocityX = 0.0f;
+    _velocityY = 0.0f;
 }
 
 - (void)advanceTime:(double)seconds
